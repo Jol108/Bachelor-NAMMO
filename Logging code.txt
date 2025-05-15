@@ -2,7 +2,7 @@
 #include <SD.h>
 
 const int chipSelect = 4;      // SD card CS pin
-const int logInterval = 100;   // Log every 100ms (10 times per second)
+const int logInterval = 100;   // ms
 
 const float referenceVoltage = 5.0;  // Analog reference voltage
 
